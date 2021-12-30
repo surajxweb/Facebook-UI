@@ -1,0 +1,72 @@
+.post_area {
+  height: 420px;
+  width: 850px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: white;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.post_area button:hover {
+  background-color: rgb(37, 65, 119);
+}
+
+.textbox input {
+  padding: 0.5rem;
+  width: 450px;
+  height: 180px;
+  border: none;
+  margin: 1rem;
+  font: inherit;
+  font-size: 25px;
+  display: block;
+  border-bottom: 2px solid #e9ebee;
+}
+
+.textbox input:active {
+  border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::placeholder {
+  font: inherit;
+  font-size: 20px;
+}
+
+.controles button {
+  margin: 0.5rem;
+  width: 120px;
+  font: inherit;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #4267b2;
+  color: white;
+}
+
+.input_area {
+  width: 500px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textbox button {
+  width: 100px;
+  font: inherit;
+  height: 45px;
+  background-color: #4267b2;
+  color: white;
+  position: relative;
+  left: 22.3rem;
+}

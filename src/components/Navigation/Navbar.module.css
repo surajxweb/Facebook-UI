@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  background-color: #f7f7f7;
+  height: 3.5rem;
+  padding: 0 1rem 0 1rem;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.logo_icon {
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.navlinks {
+  align-self: center;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_icon {
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.active_icon {
+  border-bottom: 2px solid #4267b2;
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  width: 15rem;
+}
+
+.profile img {
+  width: 45px;
+  border-radius: 20px;
+}

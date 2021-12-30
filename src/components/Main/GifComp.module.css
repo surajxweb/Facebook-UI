@@ -1,0 +1,27 @@
+.gifContainer {
+  overflow: auto;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+input {
+  height: 40px;
+  margin: 0.5rem;
+  font: inherit;
+  font-size: 18px;
+}
+
+.gifForm img {
+  height: 120px;
+  margin: 0.5rem;
+}
+
+.gifForm button {
+  margin: 0.5rem;
+  width: 100px;
+  font: inherit;
+  height: 45px;
+  background-color: #4267b2;
+  color: white;
+}

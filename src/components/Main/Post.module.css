@@ -1,0 +1,33 @@
+.post {
+  display: flex;
+  flex-flow: column wrap;
+  width: 550px;
+  padding: 1rem;
+  margin: 2rem 0 1rem 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+.postheader {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  color: #616771;
+}
+
+.postimage img {
+  width: 60px;
+  border-radius: 30px;
+}
+
+.postinfo {
+  margin-left: 1rem;
+}
+
+.postcontent {
+  margin: 1.5rem 0 0 1rem;
+  font-size: 25px;
+  color: black;
+}
